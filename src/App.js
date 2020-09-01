@@ -5,6 +5,7 @@ import UserOutput from './UserOutput/UserOutput';
 import Person from './Person/Person';
 import CharOutput from './CharComponent/CharOutput';
 import ValidationComponent from './ValidationComponent/ValidationComponent';
+import styleClasses from '../src/style.module.css';
 class App extends Component {
   state = {
     UserName : 'sana',
@@ -74,7 +75,7 @@ class App extends Component {
   //   {person}
   //  </div>
   <div className="App">
-    <h1>Assignment2 </h1>
+    <h1 className={styleClasses.bgColor}>Assignment2 </h1>
     <div >
     <label>Enter your text here:</label>
     <input type="text" value={this.state.text} onChange={this.ShowLength} />
