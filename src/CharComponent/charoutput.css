@@ -1,0 +1,8 @@
+.outputblock {
+    display: inline-block;
+    border: 1px solid black;
+    background: #eee;
+    padding: 16px;
+    text-align: center;
+    margin: 16px;
+}
